@@ -22,7 +22,7 @@
 		],
 		"client": [
 			"com.freetime.MyFabricModClient"
-		],
+		]
 	},
 	"mixins": [
 		"my-fabric-mod.mixins.json"
