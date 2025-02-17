@@ -9,8 +9,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
-    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item GOLDEN_BEEF_COOKED = registerItem("golden_beef_cooked", new Item(new Item.Settings()));
+    public static final Item GOLDEN_BEEF_RAW = registerItem("golden_beef_raw", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,8 +21,8 @@ public class ModItems {
         MyFabricMod.LOGGER.info("Registering Mod Items for " + MyFabricMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
+            entries.add(GOLDEN_BEEF_COOKED);
+            entries.add(GOLDEN_BEEF_RAW);
         } );
     }
 }

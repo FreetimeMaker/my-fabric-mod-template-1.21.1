@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "my-fabric-mod:item/raw_pink_garnet"
+    "layer0": "my-fabric-mod:item/golden_beef_raw"
   }
 }
