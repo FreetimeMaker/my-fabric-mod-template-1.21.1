@@ -9,15 +9,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+    public static final Block GOLDEN_BLOCK = registerBlock("golden_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+                    .requiresTool()));
 
-    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+    public static final Block RAW_GOLDEN_BLOCK = registerBlock("raw_golden_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));
 
@@ -35,8 +34,8 @@ public class ModBlocks {
         MyFabricMod.LOGGER.info("Registering Mod Blocks for " + MyFabricMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.GOLDEN_BLOCK);
+            entries.add(ModBlocks.RAW_GOLDEN_BLOCK);
         });
     }
 }
