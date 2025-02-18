@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/raw_golden_block"
+      "model": "my-fabric-mod:block/raw_golden_block"
     }
   }
 }

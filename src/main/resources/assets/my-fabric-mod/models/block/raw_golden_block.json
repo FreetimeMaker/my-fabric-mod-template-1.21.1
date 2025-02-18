@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/raw_golden_block"
+    "all": "my-fabric-mod:block/raw_golden_block"
   }
 }
