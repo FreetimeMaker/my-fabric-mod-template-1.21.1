@@ -18,16 +18,14 @@ public class ModGroups {
                     .icon(() -> new ItemStack(ModItems.GOLDEN_GROUP_ICON))
                     .displayName(Text.translatable("itemgroup.my-fabric-mod.golden_group"))
                     .entries((displayContext, entries) -> {
-                        // Add items
                         entries.add(ModItems.GOLDEN_BEEF_COOKED);
                         entries.add(ModItems.GOLDEN_BEEF_RAW);
-
-                        // Add blocks
                         entries.add(ModBlocks.GOLDEN_BLOCK);
                         entries.add(ModBlocks.RAW_GOLDEN_BLOCK);
-                    })
-                    .build());
+                    }).build());
 
+
+    
     public static void registerItemGroups() {
         MyFabricMod.LOGGER.info("Registering Item groups for " + MyFabricMod.MOD_ID);
     }
