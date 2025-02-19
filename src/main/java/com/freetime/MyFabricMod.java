@@ -1,5 +1,6 @@
 package com.freetime;
 
+import com.freetime.Creative_Tab.ModGroups;
 import com.freetime.block.ModBlocks;
 import com.freetime.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -13,6 +14,8 @@ public class MyFabricMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

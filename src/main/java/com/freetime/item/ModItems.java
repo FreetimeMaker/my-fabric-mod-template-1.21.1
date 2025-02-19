@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item GOLDEN_BEEF_COOKED = registerItem("golden_beef_cooked", new Item(new Item.Settings()));
     public static final Item GOLDEN_BEEF_RAW = registerItem("golden_beef_raw", new Item(new Item.Settings()));
+    public static final Item GOLDEN_GROUP_ICON = registerItem("golden_group_icon", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
