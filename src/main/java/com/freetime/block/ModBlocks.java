@@ -9,16 +9,17 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block GOLDEN_BLOCK = registerBlock("golden_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool()));
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block RAW_GOLDEN_BLOCK = registerBlock("raw_golden_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
-                    .requiresTool()));
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
