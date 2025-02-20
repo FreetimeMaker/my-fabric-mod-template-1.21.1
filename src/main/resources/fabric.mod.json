@@ -36,7 +36,7 @@
 		"jade": ">=15.9.2",
 		"modmenu": ">=11.0.3",
 		"armor-hud": "v8-1.21.1-fabric",
-		"Durability101": "fabric-1.21-0.0.5"
+		"durabilitytooltip": "1.1.5"
 	},
 	"suggests": {
 		"appleskin": "fabric-mc1.21-3.0.6",
