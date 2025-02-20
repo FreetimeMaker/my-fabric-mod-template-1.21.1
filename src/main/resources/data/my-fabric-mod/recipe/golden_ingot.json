@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "my-fabric-mod:golden_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "my-fabric-mod:golden_ingot"
+  }
+}

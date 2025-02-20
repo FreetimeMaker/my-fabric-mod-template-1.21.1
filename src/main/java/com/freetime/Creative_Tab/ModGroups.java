@@ -20,6 +20,8 @@ public class ModGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLDEN_BEEF_COOKED);
                         entries.add(ModItems.GOLDEN_BEEF_RAW);
+                        entries.add(ModItems.RAW_GOLDEN_INGOT);
+                        entries.add(ModItems.GOLDEN_INGOT);
                         entries.add(ModBlocks.GOLDEN_BLOCK);
                         entries.add(ModBlocks.RAW_GOLDEN_BLOCK);
                     }).build());

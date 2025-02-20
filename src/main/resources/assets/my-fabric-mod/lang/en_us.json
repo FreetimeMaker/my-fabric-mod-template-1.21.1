@@ -1,6 +1,8 @@
 {
-  "item.my-fabric-mod.golden_beef": "Golden Beef Cooked",
-  "item.my-fabric-mod.raw_golden_beef": "Golden Beef Raw",
+  "item.my-fabric-mod.golden_beef": "Cooked Golden Beef",
+  "item.my-fabric-mod.golden_ingot": "Golden Ingot",
+  "item.my-fabric-mod.raw_golden_beef": "Raw Golden Beef",
+  "item.my-fabric-mod.raw_golden_ingot": "Raw Golden Ingot",
 
   "block.my-fabric-mod.golden_block": "Block of Gold",
   "block.my-fabric-mod.raw_golden_block": "Block of Raw Gold",

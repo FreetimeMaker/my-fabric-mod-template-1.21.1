@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item GOLDEN_BEEF_COOKED = registerItem("golden_beef_cooked", new Item(new Item.Settings()));
     public static final Item GOLDEN_BEEF_RAW = registerItem("golden_beef_raw", new Item(new Item.Settings()));
+    public static final Item RAW_GOLDEN_INGOT = registerItem("raw_golden_ingot", new Item(new Item.Settings()));
+    public static final Item GOLDEN_INGOT = registerItem("golden_ingot", new Item(new Item.Settings()));
     public static final Item GOLDEN_GROUP_ICON = registerItem("golden_group_icon", new Item(new Item.Settings()));
 
 
@@ -24,6 +26,8 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(GOLDEN_BEEF_COOKED);
             entries.add(GOLDEN_BEEF_RAW);
+            entries.add(RAW_GOLDEN_INGOT);
+            entries.add(GOLDEN_INGOT);
         } );
     }
 }
