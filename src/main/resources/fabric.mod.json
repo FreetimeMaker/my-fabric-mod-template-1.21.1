@@ -35,13 +35,13 @@
 		"jei": ">=19.21.0.247",
 		"jade": ">=15.9.2",
 		"modmenu": ">=11.0.3",
-		"armor-hud": "v8-1.21.1-fabric"
+		"armor-hud": "v8-1.21.1-fabric",
+		"durability101": "fabric-1.21-0.0.5"
 	},
 	"suggests": {
 		"appleskin": "fabric-mc1.21-3.0.6",
 		"chat_heads": "0.13.13-fabric-1.21",
 		"cloth_config": "15.0.140-fabric",
-		"continuity": "3.0.0+1.21",
-		"durability101": "fabric-1.21-0.0.5"
+		"continuity": "3.0.0+1.21"
 	}
 }
