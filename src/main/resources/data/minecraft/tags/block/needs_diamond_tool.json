@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "my-fabric-mod:gold_ore",
+    "my-fabric-mod:gold_deepslate_ore"
+  ]
+}
