@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeled",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "my-fabric-mod:raw_golden_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "my-fabric-mod:raw_golden_block"
+  }
+}

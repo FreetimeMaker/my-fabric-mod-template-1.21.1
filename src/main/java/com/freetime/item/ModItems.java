@@ -22,12 +22,5 @@ public class ModItems {
 
     public static void registerModItems() {
         MyFabricMod.LOGGER.info("Registering Mod Items for " + MyFabricMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(GOLDEN_BEEF_COOKED);
-            entries.add(GOLDEN_BEEF_RAW);
-            entries.add(RAW_GOLDEN_INGOT);
-            entries.add(GOLDEN_INGOT);
-        } );
     }
 }

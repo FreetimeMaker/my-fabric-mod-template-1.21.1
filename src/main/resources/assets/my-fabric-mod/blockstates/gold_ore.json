@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "my-fabric-mod:block/gold_ore"
+    }
+  }
+}

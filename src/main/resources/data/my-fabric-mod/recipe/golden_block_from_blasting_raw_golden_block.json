@@ -5,9 +5,9 @@
   "experience": 0.2,
   "group": "My Fabric Mod Group",
   "ingredient": {
-    "item": "my-fabric-mod:raw_golden_ingot"
+    "item": "my-fabric-mod:raw_golden_block"
   },
   "result": {
-    "id": "my-fabric-mod:golden_ingot"
+    "id": "my-fabric-mod:golden_block"
   }
 }
