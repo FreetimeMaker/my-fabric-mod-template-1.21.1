@@ -5,6 +5,7 @@ import com.freetime.block.ModBlocks;
 import com.freetime.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,8 +16,8 @@ public class MyFabricMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModGroups.registerItemGroups();
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.GOLDEN_COAL, 600);
 	}
 }
