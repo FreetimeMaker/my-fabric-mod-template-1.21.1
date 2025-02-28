@@ -3,12 +3,10 @@
   "item.my-fabric-mod.golden_ingot": "Golden Ingot",
   "item.my-fabric-mod.golden_beef_raw": "Raw Golden Beef",
   "item.my-fabric-mod.raw_golden_ingot": "Raw Golden Ingot",
-
+  "item.my-fabric-mod.golden_coal": "Golden Coal",
   "block.my-fabric-mod.golden_block": "Block of Gold",
   "block.my-fabric-mod.raw_golden_block": "Block of Raw Gold",
-
   "block.my-fabric-mod.gold_ore": "Ore Full of Gold",
   "block.my-fabric-mod.gold_deepslate_ore": "Deepslate Ore Full of Gold",
-
   "itemgroup.my-fabric-mod.golden_group": "My Fabric Mod Group"
 }

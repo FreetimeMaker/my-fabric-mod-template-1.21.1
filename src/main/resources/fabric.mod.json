@@ -8,7 +8,8 @@
 		"Freetime Maker"
 	],
 	"contact": {
-			"sources": "https://github.com/FreetimeMaker/my-fabric-mod-template-1.21.1/"
+		"website": "https://freetimemaker.github.io/",
+		"sources": "https://github.com/FreetimeMaker/my-fabric-mod-template-1.21.1/"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/my-fabric-mod/icon.png",
@@ -35,8 +36,8 @@
 		"jei": ">=19.21.0.247",
 		"jade": ">=15.9.2",
 		"modmenu": ">=11.0.3",
-		"armor-hud": "v8-1.21.1-fabric",
-		"durabilitytooltip": "1.1.5"
+		"armor-hud": ">=v8-1.21.1-fabric",
+		"durabilitytooltip": ">=1.1.5"
 	},
 	"suggests": {
 		"appleskin": "fabric-mc1.21-3.0.6",

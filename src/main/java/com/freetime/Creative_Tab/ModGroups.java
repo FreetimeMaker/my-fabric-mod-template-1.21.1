@@ -23,6 +23,7 @@ public class ModGroups {
                         entries.add(ModItems.RAW_GOLDEN_INGOT);
                         entries.add(ModItems.GOLDEN_INGOT);
                         entries.add(ModBlocks.GOLDEN_BLOCK);
+                        entries.add(ModItems.GOLDEN_COAL);
                         entries.add(ModBlocks.RAW_GOLDEN_BLOCK);
                         entries.add(ModBlocks.GOLD_ORE);
                         entries.add(ModBlocks.GOLD_DEEPSLATE_ORE);
